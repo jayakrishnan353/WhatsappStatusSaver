@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Status Saver</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string moduleConfig="true"  name="CodePushDeploymentKey">a07eVt_myhG2npPnNtSpB9ni4LE57l8YPtew1</string>
+   <string name="facebook_app_id">590784105661409</string>
+<string name="fb_login_protocol_scheme">fb590784105661409</string>
+</resources>

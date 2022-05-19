@@ -1,0 +1,654 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <RNGestureHandlerButton
+      collapsable={false}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      rippleColor={0}
+    >
+      <View
+        accessible={true}
+        style={
+          Object {
+            "height": 40,
+            "marginLeft": 10,
+            "opacity": 1,
+            "width": 40,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#D3D3D3",
+                "fontSize": 30,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </RNGestureHandlerButton>
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../app/assets/images/aptean_logo.png",
+        }
+      }
+      style={
+        Object {
+          "height": 60,
+          "width": 200,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "width": 50,
+        }
+      }
+    />
+  </View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "subTitle": "bd7a5.7.0.20",
+          "title": "Software Version:",
+        },
+        Object {
+          "subTitle": "300",
+          "title": "Database Version:",
+        },
+        Object {
+          "subTitle": "300",
+          "title": "Upgrade Version:",
+        },
+        Object {
+          "subTitle": "2.5.4.13",
+          "title": "Message Version:",
+        },
+        Object {
+          "subTitle": "09/02/2021 11:41:04",
+          "title": "Date / Time:",
+        },
+        Object {
+          "subTitle": "ba983c3664219f37",
+          "title": "Device Id:",
+        },
+        Object {
+          "subTitle": "-",
+          "title": "User:",
+        },
+        Object {
+          "subTitle": "-",
+          "title": "Login Method:",
+        },
+        Object {
+          "subTitle": "0",
+          "title": "Jobs:",
+        },
+        Object {
+          "subTitle": "0",
+          "title": "Open Jobs:",
+        },
+        Object {
+          "subTitle": "4",
+          "title": "Message to send:",
+        },
+        Object {
+          "subTitle": "Mobile",
+          "title": "Network Type:",
+        },
+        Object {
+          "subTitle": "Unable to obtain",
+          "title": "Server Address:",
+        },
+        Object {
+          "subTitle": "Unable to obtain",
+          "title": "Protocol:",
+        },
+        Object {
+          "subTitle": "Unable to obtain",
+          "title": "Client ID:",
+        },
+        Object {
+          "subTitle": "2.5.4.13",
+          "title": "Last Sync Date:",
+        },
+        Object {
+          "subTitle": "Data sync tracking has been initialized",
+          "title": "Last Sync Status:",
+        },
+        Object {
+          "subTitle": "09/02/2021 11:41:04",
+          "title": "Last GPS Date:",
+        },
+        Object {
+          "subTitle": "GPS tracking has been initialized",
+          "title": "Last GPS Status:",
+        },
+        Object {
+          "subTitle": "9.884357",
+          "title": "GPS Latitude:",
+        },
+        Object {
+          "subTitle": "78.082311",
+          "title": "GPS Longitutde:",
+        },
+        Object {
+          "subTitle": "09/02/2021 11:41:04",
+          "title": "Housekeeping Date:",
+        },
+        Object {
+          "subTitle": "Housekeeping has been initialized",
+          "title": "Housekeeping Status:",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginVertical": 10,
+              }
+            }
+          >
+            Software Version:
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "bold",
+                  "marginVertical": 10,
+                },
+                Object {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "marginLeft": 10,
+                  "textAlign": "right",
+                },
+              ]
+            }
+          >
+            bd7a5.7.0.20
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginVertical": 10,
+              }
+            }
+          >
+            Database Version:
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "bold",
+                  "marginVertical": 10,
+                },
+                Object {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "marginLeft": 10,
+                  "textAlign": "right",
+                },
+              ]
+            }
+          >
+            300
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginVertical": 10,
+              }
+            }
+          >
+            Upgrade Version:
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "bold",
+                  "marginVertical": 10,
+                },
+                Object {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "marginLeft": 10,
+                  "textAlign": "right",
+                },
+              ]
+            }
+          >
+            300
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginVertical": 10,
+              }
+            }
+          >
+            Message Version:
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "bold",
+                  "marginVertical": 10,
+                },
+                Object {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "marginLeft": 10,
+                  "textAlign": "right",
+                },
+              ]
+            }
+          >
+            2.5.4.13
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginVertical": 10,
+              }
+            }
+          >
+            Date / Time:
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "bold",
+                  "marginVertical": 10,
+                },
+                Object {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "marginLeft": 10,
+                  "textAlign": "right",
+                },
+              ]
+            }
+          >
+            09/02/2021 11:41:04
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginVertical": 10,
+              }
+            }
+          >
+            Device Id:
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "bold",
+                  "marginVertical": 10,
+                },
+                Object {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "marginLeft": 10,
+                  "textAlign": "right",
+                },
+              ]
+            }
+          >
+            ba983c3664219f37
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginVertical": 10,
+              }
+            }
+          >
+            User:
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "bold",
+                  "marginVertical": 10,
+                },
+                Object {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "marginLeft": 10,
+                  "textAlign": "right",
+                },
+              ]
+            }
+          >
+            -
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginVertical": 10,
+              }
+            }
+          >
+            Login Method:
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "bold",
+                  "marginVertical": 10,
+                },
+                Object {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "marginLeft": 10,
+                  "textAlign": "right",
+                },
+              ]
+            }
+          >
+            -
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginVertical": 10,
+              }
+            }
+          >
+            Jobs:
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "bold",
+                  "marginVertical": 10,
+                },
+                Object {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "marginLeft": 10,
+                  "textAlign": "right",
+                },
+              ]
+            }
+          >
+            0
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginVertical": 10,
+              }
+            }
+          >
+            Open Jobs:
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontWeight": "bold",
+                  "marginVertical": 10,
+                },
+                Object {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "marginLeft": 10,
+                  "textAlign": "right",
+                },
+              ]
+            }
+          >
+            0
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
